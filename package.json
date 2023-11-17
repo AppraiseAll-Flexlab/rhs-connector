@@ -1,0 +1,73 @@
+{
+  "_from": "git+http://abhinav.ankur:EXoiF1iU8n5M1wxsbcri@github.cloudzmall.com/applane-npm/rhs-connector.git#staging",
+  "_id": "rhs-connector@1.0.1",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/rhs-connector",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "rhs-connector@git+http://abhinav.ankur:EXoiF1iU8n5M1wxsbcri@github.cloudzmall.com/applane-npm/rhs-connector.git#staging",
+    "name": "rhs-connector",
+    "escapedName": "rhs-connector",
+    "rawSpec": "git+http://abhinav.ankur:EXoiF1iU8n5M1wxsbcri@github.cloudzmall.com/applane-npm/rhs-connector.git#staging",
+    "saveSpec": "git+http://abhinav.ankur:EXoiF1iU8n5M1wxsbcri@github.cloudzmall.com/applane-npm/rhs-connector.git#staging",
+    "fetchSpec": "http://abhinav.ankur:EXoiF1iU8n5M1wxsbcri@github.cloudzmall.com/applane-npm/rhs-connector.git",
+    "gitCommittish": "staging"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+http://abhinav.ankur:EXoiF1iU8n5M1wxsbcri@github.cloudzmall.com/applane-npm/rhs-connector.git#0840827e042e7d5f47488eab6868b76a16b8136a",
+  "_spec": "rhs-connector@git+http://abhinav.ankur:EXoiF1iU8n5M1wxsbcri@github.cloudzmall.com/applane-npm/rhs-connector.git#staging",
+  "_where": "/home/com147/Desktop/PosShop/backend",
+  "author": {
+    "name": "Applane"
+  },
+  "babel": {
+    "presets": [
+      "react-native"
+    ],
+    "plugins": [
+      "transform-decorators-legacy"
+    ]
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "",
+  "devDependencies": {
+    "babel-core": "6.25.0",
+    "babel-eslint": "7.2.3",
+    "babel-jest": "21.2.0",
+    "babel-loader": "7.1.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-power-assert": "^2.0.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-react-native": "4.0.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "babel-runtime": "6.26.0",
+    "body-parser": "^1.18.3",
+    "lodash": "^4.17.10",
+    "mongodb": "^3.0.10",
+    "react-test-renderer": "16.0.0",
+    "socket.io": "^2.1.1",
+    "url": "^0.11.0"
+  },
+  "license": "ISC",
+  "main": "build/index.js",
+  "name": "rhs-connector",
+  "repository": {
+    "type": "git",
+    "url": "http://github.cloudzmall.com/applane-npm/rhs-connector.git"
+  },
+  "scripts": {
+    "build": "babel rhs-connector -d build --copy-files",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.1"
+}
